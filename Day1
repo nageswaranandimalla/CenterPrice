@@ -1,0 +1,123 @@
+How to Install Java
+===================
+
+Download Java 17
+=================
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+Set Environment variables
+======================
+JAVA_HOME=C:\Program Files\Java\jdk-17
+PATH=%JAVA_HOME%\bin
+
+search -> edit envoronment variables
+
+Open cmd prompt
+
+javac -version
+
+java -version
+
+JDK= Tools + jre + jvm  ( Development Tool)
+jre = jre + jvm  ( Runtime environment)
+
+Java 11 Onwords No more JRE (Modules)
+
+
+Sample.java
+==========
+public class Sample
+{
+  public static void main(String args[])
+   {
+     System.out.println("Hello World");
+   }
+
+
+javac Sample.java
+
+java Sample
+
+
+IDE
+1. ECLIPSE
+2. MyEclipse
+3. JDeveloper
+4. NetBeans
+5. IntelliJIEA( Not free)
+6. vs code
+7. STS (Spring Testing Sute) Spring and Spring boot
+...etc
+
+
+Download eclipse
+The Eclipse Installer 2024‑03 R now includes a JRE for macOS, Windows and Linux.
+https://www.eclipse.org/downloads/packages/release/2024-03/r
+
+
+Java Concepts
+============
+Basics
+======
+Intriduction
+Features of Java
+Variables & Data Types
+Operators
+Conditional Statements
+Switch Case
+Loops
+Arrays
+Functions
+========
+Core Java
+========
+Object
+Class
+Encapsulations
+Abstraction
+Inheriatance
+Polymorphisam
+Access Modifiers
+     private,Default,protected and public
+Non Access Modifiers
+static,final, abstract, native, transient, volatile and synchrozitation
+Abstract Classes and Interfaces
+
+============================================
+
+Adv-Java
+======
+Exception Handling
+IO-NIO
+Collection Framework
+Multithreading
+Innser Classes
+Java 8 Features like Lambda,Stream api
+Date and Time api
+
+MySql Database
+=============
+
+
+
+===========
+JDBC
+
+
+Tools 
+
+Git and github
+===========
+Git is onprem tool to push your code(scm) into cloud ex ( Github,GitLab and Bitbucket)
+Maven Build tool [ Ant and Gradle]
+Agile methodology => SCRUM => Sprint=> user story, agile board
+Jankins :- CI CD
+Docker :- Continerazation
+k8-Kubernates :- Manage the Dockar containers
+
+AWS
+====
+VM CREATION AND DEPLOY SPRING BOOT APPLICATION
+KAFKA (Messaging)
+RADIS (cACHE)
+
